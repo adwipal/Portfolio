@@ -1,0 +1,46 @@
+.homeContainer {
+    animation: 3s ease-in 1s 2 reverse both paused slide-in;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.homeContainer .linksContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    /* max-width: 600px; */
+}
+
+.grid h2 {
+    margin-bottom: -16px;
+}
+
+.headerContainer {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer {
+    padding-bottom: 80px;
+}
+
+#pfp {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 48px;
+}

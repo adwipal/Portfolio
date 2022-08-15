@@ -1,0 +1,35 @@
+.Now a {
+    text-decoration: underline #d5d5d5;
+    text-underline-offset: 4px;
+    font-weight: 400;
+    color: #000;
+}
+
+.Now li {
+    display: list-item;
+}
+
+.Now ul {
+    list-style: none;
+    list-style-position: outside;
+    padding: 0 0 0 32px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    gap: 16px;
+}
+
+.Now ul li:before {
+    content: "–";
+    display: inline-block;
+    text-indent: -32px;
+}
+
+.Now a:visited {
+    text-decoration: underline #d5d5d5;
+}
+
+.Now {
+    max-width: 400px;
+}
