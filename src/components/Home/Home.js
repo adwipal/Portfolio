@@ -40,7 +40,7 @@ class Home extends Component {
                 <div className = "headerContainer">
                     <img id="pfp" src={imgPFP}></img>
                     <h1>Hi, I'm Adwi</h1>
-                    <p>Terrorize the jam like troops in Pakistan, swinging through your town like your neighborhood Spiderman. Life as a shorty shouldn't be so rough. One who just represent the Wu-Tang click with the game and soul, of an old school flick.</p>
+                    <p>Yo. Terrorize the jam like troops in Pakistan, swinging through your town like your neighborhood Spiderman. Life as a shorty shouldn't be so rough. One who just represent the Wu-Tang click with the game and soul, of an old school flick.</p>
 
                     <p>Slammin a hype verse til ya head burst. I come rough, tough like an Elephant tusk. I be that insane one from the psycho ward, I'm on the trigger, plus I got the Wu-Tang sword.</p>
 
